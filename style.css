@@ -5,7 +5,7 @@ body, html{
     background-size: cover;
     overflow: hidden;
     height: 100%;
-    background-position: inherit;
+    background-position: center;
     text-align: center;
 }
 h1{
