@@ -1,0 +1,98 @@
+body, html{
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1563630381190-77c336ea545a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dGhlJTIwc3VufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100%;
+    background-position: inherit;
+    text-align: center;
+}
+h1{
+    color: wheat;
+    font-size: 50px;
+    font-weight: 700px;
+    font-family: 'Sono', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 3px 3px rgb(235, 182, 6);
+    text-align: center;
+    
+}
+#name{
+    background-color: aliceblue;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    border: none;
+    width: 180px;
+}
+#email{
+    background-color: aliceblue;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    border: none;
+    width: 180px;
+}
+#phone{
+    background-color: aliceblue;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    border: none;
+    width: 180px;
+}
+#gender{
+    background-color: aliceblue;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    border: none;
+    width: 180px;
+}
+#password{
+    background-color: aliceblue;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    border: none;
+    width: 180px;
+}
+fieldset {
+    width: 10%;
+    height: 400px;
+    padding: 30px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.subheading{
+    font-size: 20px;
+    font-weight: 900px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-bottom: 40px;
+}
+label{
+    color: rgb(117, 74, 74);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    width: 51%;
+}
+legend{
+    color: aliceblue;
+}
+button{
+    color: aliceblue;
+    background-color: rgb(165, 101, 42);
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    margin: 20px;
+}
+button:hover{
+    color: rgb(165, 101, 42);
+    background-color: aliceblue;
+}

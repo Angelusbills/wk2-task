@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my form task</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sono:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+        <h1>A simple form</h1>
+            
+            <form onsubmit="myFunction()">
+                <fieldset class="container">
+                    
+                    <div class="subheading">
+                    <legend>Sign up</legend>
+                    </div>
+                    <div class="subtext">
+                    <label for="name">Name:</label>
+                    <br/>
+                    <input type="text" name="name" id="name"  placeholder="Enter name" required>
+                    <br/><br/>
+                    <label for="email">Email:</label>
+                    <br/>
+                    <input type="email" name="email" id="email" placeholder="Enter email" required>
+                    <br/><br/>
+                    <label for="phone">Phone:</label>
+                    <br/>
+                    <input type="number" name="phone" id="phone" placeholder="Enter phone" required>
+                    <br/><br/>
+                    <label for="gender">Gender:</label>
+                    <br/>
+                    <select type="select" name="gender" id="gender" required>
+                        <option value="">Select gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <br/><br/>
+                    <label for="password">Password:</label>
+                    <br/>
+                    <input type="password" name="password" id="password" placeholder="Enter password" required>
+                    <br/><br/>
+                    <!--<aside style="float: right; width: 40%">
+                    <button type="button" onclick="alert('Form submitted successfully.')">submit</button>
+                    </aside>
+                    <button type="submit" value="submit" id="submit-button" onclick="alert('success!')">submit
+                    </button>-->
+                    <button>
+                        submit
+                    </button>
+                    </div>
+                </fieldset> 
+            </form>
+            <script>
+                function myFunction() {
+                    alert("Submitted Successfully");
+                }
+            </script>
+        </div>
+    </body>
+</html>
